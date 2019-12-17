@@ -9,3 +9,7 @@ This solutions is mostly based on CSS and the best solution to automatically add
 
 # Get selected item from dropdown
 https://ellie-app.com/6ZJ2tQ8FnbNa1
+
+# You only need main to run elm
+No need for a model etc.
+https://docs.google.com/presentation/d/1mQZDjSg4JG8L1UnrLE2UBk7cnXzYpW22HSAI-sYSQy4/edit#slide=id.p
