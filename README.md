@@ -12,4 +12,4 @@ https://ellie-app.com/6ZJ2tQ8FnbNa1
 
 # You only need main to run elm
 No need for a model etc.
-https://docs.google.com/presentation/d/1mQZDjSg4JG8L1UnrLE2UBk7cnXzYpW22HSAI-sYSQy4/edit#slide=id.p
+https://ellie-app.com/7nVDGRBQr8ka1
