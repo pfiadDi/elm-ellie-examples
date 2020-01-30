@@ -18,4 +18,10 @@ https://ellie-app.com/7nVDGRBQr8ka1
 
 # How to use Debug.log in a Decoder
 
-```case Decode.decodeValue decoder (Debug.log "touch event" value) of```
+```case Decode.decodeValue decoder (Debug.log "log message:" value) of```
+
+# Random generator
+
+Great example, especially because random types are generated
+
+https://ellie-app.com/7TPZYfJnb74a1
