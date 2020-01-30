@@ -15,3 +15,7 @@ https://ellie-app.com/6ZJ2tQ8FnbNa1
 No need for a model etc.
 
 https://ellie-app.com/7nVDGRBQr8ka1
+
+# How to use Debug.log in a Decoder
+
+```case Decode.decodeValue decoder (Debug.log "touch event" value) of```
