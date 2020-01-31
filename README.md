@@ -25,3 +25,15 @@ https://ellie-app.com/7nVDGRBQr8ka1
 Great example, especially because random types are generated
 
 https://ellie-app.com/7TPZYfJnb74a1
+
+#Conditional Decoding
+
+```Decode.field "passCount" Decode.int
+ |> Decode.andThen (\type_ ->
+     case type_ of 
+         1 -> onePassStreamDecode
+         2 -> twoPassStreamDecode
+         _ -> Decode.fail "Unknown passCount"
+ )```
+ 
+ or https://ellie-app.com/7V5sBcndPBka1
