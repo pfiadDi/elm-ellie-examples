@@ -26,7 +26,7 @@ Great example, especially because random types are generated
 
 https://ellie-app.com/7TPZYfJnb74a1
 
-#Conditional Decoding
+# Conditional Decoding
 
 ```Decode.field "passCount" Decode.int
  |> Decode.andThen (\type_ ->
