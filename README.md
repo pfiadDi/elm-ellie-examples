@@ -34,6 +34,12 @@ https://ellie-app.com/7TPZYfJnb74a1
          1 -> onePassStreamDecode
          2 -> twoPassStreamDecode
          _ -> Decode.fail "Unknown passCount"
- )```
+ )
+ ```
  
  or https://ellie-app.com/7V5sBcndPBka1
+ 
+ # Get js event objects in the console to inspect them for decoding
+ 
+ ## KeyboardEvent
+ ```addEventListener("keydown",console.log);```
