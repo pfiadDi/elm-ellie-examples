@@ -47,3 +47,7 @@ https://ellie-app.com/7TPZYfJnb74a1
  # Convert posix to time based on curret timezone
  
  https://ellie-app.com/83zVNwRMF3va1
+ 
+ # Record Helper
+ 
+ https://pd-andy.github.io/elm-record-helpers/
