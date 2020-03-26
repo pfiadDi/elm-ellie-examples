@@ -51,3 +51,15 @@ https://ellie-app.com/7TPZYfJnb74a1
  # Record Helper
  
  https://pd-andy.github.io/elm-record-helpers/
+
+
+## Debugging strategy
+
+Chaining debug logs into a piping
+
+```
+value
+  |> f
+  |> Debug.log "f"
+  |> g
+  |> Debug.log "g"```
