@@ -69,5 +69,7 @@ value
 The event object is what you have at hand you define a custom "on" event. it's a json you can parse in what ever way you want. 
 To see what this element contains and it's structured you can log the object in the console like this:
 ```
-document.querySelector("SELECTOR").addEventListener("click", function(e){console.log(e.target)});
+document.querySelector("SELECTOR").addEventListener("click", function(e){
+  console.log(e)
+});
 ```
