@@ -78,7 +78,8 @@ document.querySelector("SELECTOR").addEventListener("click", function(e){
 
 You don't have to decode a data attribute or id or so you can hardcode the msg content, e.g.:
 
-```on "animationend" 
+```
+on "animationend" 
      <| Decode.succeed 
      <| BrowserFinishedAnimation 
      <| String.fromInt i
