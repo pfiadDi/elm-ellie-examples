@@ -84,5 +84,12 @@ on "animationend"
      <| BrowserFinishedAnimation 
      <| String.fromInt i
 ```
-    
+
+# tuple decoder and positonal decoding
+
+```tupleDecoder : Decoder (Int, Int)
+tupleDecoder =
+  Decode.map2 (\first second -> (first, second))
+    (Decode.index 0 Decode.int)
+    (Decode.index 1 Decode.int)```
     
